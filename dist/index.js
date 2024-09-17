@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const utils_1 = require("./utils");
+const numbers = [1, 2, 3, 4, 5];
+const reversedNumbers = (0, utils_1.reverse)(numbers);
+console.log(reversedNumbers);
+const product = (0, utils_1.multiply)(4, 5);
+console.log(product);
+const dropped = (0, utils_1.dropRight)(numbers, 2);
+console.log(dropped);
